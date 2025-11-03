@@ -123,7 +123,7 @@ ReDoc: http://localhost:8000/redoc
 #### Выход (`POST /auth/logout`) ![Выход](img/logout.png)
 
 Пример запроса:
-``` json
+```
 curl -X 'POST' \
   'http://localhost:8000/auth/logout' \
   -H 'accept: */*' \
@@ -137,7 +137,7 @@ curl -X 'POST' \
 
 #### Профиль (`GET /users/me`) ![Профиль](img/get_profile.png)
 Пример запроса:
-``` json
+```
 curl -X 'GET' \
   'http://localhost:8000/users/me' \
   -H 'accept: application/json' \
