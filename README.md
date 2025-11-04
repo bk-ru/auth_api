@@ -47,6 +47,12 @@ SEED_ADMIN_PASSWORD=Admin123!
 ```
 Для быстрого старта можно использовать SQLite: `DATABASE_URL=sqlite:///./app.db`.
 
+Клонирование проекта
+```bash
+git clone https://github.com/bk-ru/auth_api.git
+cd auth_api
+```
+
 ## Локальный запуск
 ```bash
 pip install -r requirements.txt
